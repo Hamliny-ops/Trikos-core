@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+INPUT="$1"
+
+LEN=${#INPUT}
+RAND=$((RANDOM % 100))
+
+echo $((1000 - LEN + RAND))

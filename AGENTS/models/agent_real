@@ -1,0 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/bash
+INPUT="$1"
+
+# placeholder – byt till curl/API senare
+echo " [real_ai:$INPUT]"

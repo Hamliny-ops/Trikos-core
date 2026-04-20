@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+INPUT="$1"
+
+# enkel mutation: shuffle + slice
+MUT=$(echo "$INPUT" | rev | cut -c1-10)
+echo " [$MUT]"

@@ -1,0 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/bash
+INPUT="$1"
+
+# placeholder för riktig AI
+echo " [ai:$(echo "$INPUT" | tr 'a-z' 'n-za-m' | cut -c1-20)]"

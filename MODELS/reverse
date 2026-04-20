@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+INPUT="$1"
+echo " $(echo "$INPUT" | rev)"

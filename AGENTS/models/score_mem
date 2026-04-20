@@ -1,0 +1,8 @@
+#!/data/data/com.termux/files/usr/bin/bash
+INPUT="$1"
+
+LEN=${#INPUT}
+COUNT=$(grep -c "$INPUT" ~/trikos/REL/memory/history.log 2>/dev/null)
+
+# belöna nytt, straffa repetition
+echo $((1000 - LEN - (COUNT * 50)))
