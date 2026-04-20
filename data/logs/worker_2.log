@@ -1,0 +1,27 @@
+[path: hello -> run | ticks:2 | time:0.0153s]
+[tick:0.015287s]
+AB_index
+AGENTS
+A_states
+B_deltas
+CORE
+DATA
+LOGS
+MODELS
+REL
+SEIGIES
+add_asymmetry.sh
+atc_upgrade.sh
+build_trikos_language.sh
+cli
+core
+data
+experiments
+link_engine.sh
+main.py
+modules
+runtime
+systems
+tmp
+trikos.log
+
