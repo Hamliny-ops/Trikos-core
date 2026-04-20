@@ -1,2 +1,2 @@
-def hello():
-    return "TRIKOS engine alive"
+def hello(state):
+    return f"hello | args: {state['args']}"

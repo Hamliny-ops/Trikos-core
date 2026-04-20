@@ -1,17 +1,23 @@
 import sys
-from core.engine import Engine
+from core.mesh import Mesh
 from modules.example import hello
+from modules.run import run
 
-engine = Engine()
-engine.register("hello", hello)
+mesh = Mesh()
+
+mesh.register_node("hello", hello)
+mesh.register_node("run", run)
+
+# kopplingar (mesh routes)
+mesh.connect("hello", "run")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python main.py <command>")
+        print("Usage: trikos <node>")
         sys.exit(1)
 
-    cmd = sys.argv[1]
+    node = sys.argv[1]
     args = sys.argv[2:]
 
-    result = engine.run(cmd, *args)
+    result = mesh.run(node, *args)
     print(result)
