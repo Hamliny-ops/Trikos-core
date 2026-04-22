@@ -1,0 +1,31 @@
+[path: run | ticks:1 | time:0.0298s]
+[tick:0.029713s]
+total 134
+drwx------. 21 u0_a358 u0_a358  3452 Apr 21 00:41 .
+drwx------. 85 u0_a358 u0_a358 53248 Apr 22 07:13 ..
+drwx------.  7 u0_a358 u0_a358  3452 Apr 21 00:41 .git
+drwx------.  2 u0_a358 u0_a358  3452 Apr 19 06:15 AB_index
+drwx------.  3 u0_a358 u0_a358  3452 Apr 19 06:14 AGENTS
+drwx------.  2 u0_a358 u0_a358  3452 Apr 19 06:15 A_states
+drwx------.  2 u0_a358 u0_a358  3452 Apr 19 06:15 B_deltas
+drwx------.  2 u0_a358 u0_a358  3452 Apr 19 16:41 CORE
+drwx------.  4 u0_a358 u0_a358  3452 Apr 19 06:14 DATA
+drwx------.  2 u0_a358 u0_a358  3452 Apr 19 05:09 LOGS
+drwx------.  2 u0_a358 u0_a358  3452 Apr 19 05:45 MODELS
+drwx------.  5 u0_a358 u0_a358  3452 Apr 19 06:53 REL
+drwx------.  5 u0_a358 u0_a358  3452 Apr 19 06:58 SEIGIES
+-rwx------.  1 u0_a358 u0_a358   787 Mar 17 19:32 add_asymmetry.sh
+-rwx------.  1 u0_a358 u0_a358  3032 Mar 17 19:27 atc_upgrade.sh
+-rwx------.  1 u0_a358 u0_a358  2268 Mar 17 19:23 build_trikos_language.sh
+drwx------.  2 u0_a358 u0_a358  3452 Mar 17 19:15 cli
+drwx------.  3 u0_a358 u0_a358  3452 Apr 21 00:29 core
+drwx------.  3 u0_a358 u0_a358  3452 Apr 21 00:41 data
+drwx------.  2 u0_a358 u0_a358  3452 Mar 17 19:15 experiments
+-rwx------.  1 u0_a358 u0_a358   551 Mar 17 19:20 link_engine.sh
+-rw-------.  1 u0_a358 u0_a358   453 Apr 21 00:29 main.py
+drwx------.  3 u0_a358 u0_a358  3452 Apr 21 00:22 modules
+drwx------.  2 u0_a358 u0_a358  3452 Apr 21 00:39 runtime
+drwx------.  2 u0_a358 u0_a358  3452 Mar 17 19:15 systems
+drwx------.  2 u0_a358 u0_a358  3452 Apr 19 05:09 tmp
+-rw-------.  1 u0_a358 u0_a358   125 Apr 19 05:45 trikos.log
+
